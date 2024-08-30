@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #070736;
+}
+.container{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    border-radius: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.red{
+    position: relative;
+    height: 70%;
+    width: 80%;
+    background-color: red;
+    border-radius: 17%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.triangle{
+    height: 0px;
+    width: 0px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top: 42px solid red;
+    border-left: 63px solid white;
+    border-bottom: 36px solid red;
+    border-right: 9px solid red;
+}
